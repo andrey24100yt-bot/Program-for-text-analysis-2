@@ -1,1 +1,0 @@
-# Program-for-text-analysis-2
