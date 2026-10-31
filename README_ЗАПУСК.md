@@ -1,15 +1,15 @@
 Лабораторная работа № 2 — вариант 4 «Музейный каталог искусства»
 
 Состав проекта:
-- lab2.py — код поисковой системы, базового поиска и экспериментов A/B/C/D;
-- 04_Музей_искусства/ — исходные CSV и README выбранного варианта;
+- ProgramForTextAnalysis2.py — код поисковой системы, базового поиска и экспериментов A/B/C/D;
+- 04_Музей_искусства/ — исходные CSV;
 - search_results.csv — TOP-5 для всех 30 запросов (конфигурация C);
 - experiment_metrics.csv — Hit@5 и MRR@5 на 8 открытых запросах;
 - baseline_results.csv — результаты базового поиска по совпадению слов;
 - analysis_errors.txt — два примера ошибок ранжирования.
 
 Запуск из корня папки:
-    python lab2.py
+    python ProgramForTextAnalysis2.py
 
 Зависимости:
     pip install pandas numpy scikit-learn nltk
