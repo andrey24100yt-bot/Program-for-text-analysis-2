@@ -12,8 +12,10 @@
     python ProgramForTextAnalysis2.py
 
 Зависимости:
+
     pip install pandas numpy scikit-learn nltk
-    pip install pymorphy3   (рекомендуется для настоящей русской лемматизации)
+    
+    pip install pymorphy3 
 
 Примечание о воспроизводимости:
 В среде, где были подготовлены файлы, pymorphy3 отсутствовал, поэтому расчётные
